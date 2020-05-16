@@ -1,0 +1,22 @@
+{
+  "name": "expo_init",
+  "version": "0.0.0",
+  "description": "No description",
+  "author": null,
+  "private": true,
+  "main": "node_modules/expo/AppEntry.js",
+  "devDependencies": {
+    "babel-preset-expo": "^7.0.0"
+  },
+  "dependencies": {
+    "expo": "^37.0.0",
+    "react": "16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-37.0.1.tar.gz",
+    "redux": "4.0.5",
+    "react-redux": "7.2.0",
+    "redux-thunk": "2.3.0",
+    "redux-persist": "6.0.0",
+    "expo-splash-screen": "0.2.3",
+    "react-native-paper": "3.10.1"
+  }
+}
