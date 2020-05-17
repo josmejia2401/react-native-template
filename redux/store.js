@@ -3,7 +3,7 @@ import { createStore, applyMiddleware } from 'redux';
 import { persistStore, persistReducer } from 'redux-persist';
 import thunk from 'redux-thunk';
 // Imports: Redux
-import rootReducer from './reducer.jsx';
+import rootReducer from './reducer';
 const middlewares = [thunk];
 // Middleware: Redux Persist Config
 const persistConfig = {

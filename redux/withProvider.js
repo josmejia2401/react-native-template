@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Provider } from 'react-redux';
-import { store, persistor } from './store.jsx';
+import { store, persistor } from './store';
 
 
 const withProvider = (Component) => class StoreProvider extends Component {

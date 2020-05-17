@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, StyleSheet } from 'react-native';
-import withProvider from 'redux/withProvider.jsx';
+import withProvider from '../redux/withProvider';
 import Home from './views/home'
 
 class AppView extends React.Component {

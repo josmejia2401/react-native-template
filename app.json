@@ -2,10 +2,9 @@
   "expo": {
     "name": "expo_init",
     "description": "Loginexpo_initX",
-    "slug": "snack-f45dbf44-6ad9-463a-8c11-8422fa0f63f8",
     "privacy": "unlisted",
     "sdkVersion": "37.0.0",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "scheme": "myapp",
     "packagerOpts": {
