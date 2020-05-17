@@ -1,10 +1,17 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { YellowBox } from 'react-native';
 import * as SplashScreen from 'expo-splash-screen';
 import AppView from './src/index';
 import SplashScreenApp from './src/views/splash'
 
 export default class App extends React.Component {
+
+  constructor(props) {
+    super(props);
+    YellowBox.ignoreWarnings(["ReactNative.NativeModules.LottieAnimationView.getConstants"]);
+  }
+
+
   state = {
     appIsReady: false,
   };

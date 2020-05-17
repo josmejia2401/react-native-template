@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { View, StyleSheet } from 'react-native';
 import withProvider from '../redux/withProvider';
-import Home from './views/home'
+import Appx from '../flow/index';
 
 class AppView extends React.Component {
   /*
@@ -28,7 +28,7 @@ class AppView extends React.Component {
 
   render() {
     return (
-      <View style={styles.container}>{<Home />}</View>
+      <View style={styles.container}>{<Appx />}</View>
     );
   }
 }
